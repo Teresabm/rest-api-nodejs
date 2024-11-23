@@ -1,9 +1,11 @@
 import {Router} from 'express'
-import { getByCategory, getRecentlyRecipes, getRecipeIngredients } from '../controllers/recipes.controller.js'
+import { getCategoryById, getRecentlyRecipes, getRecipeIngredients, getCategories, getRecipeById } from '../controllers/recipes.controller.js'
 const router = Router()
 
-router.get('/recently',getRecentlyRecipes)
-router.get('/category/:id',getByCategory)
-router.get('/detalles/:id',getRecipeIngredients)
+router.get('/recientes',getRecentlyRecipes)
+router.get('/categorias',getCategories)
+router.get('/categoria/:id',getCategoryById)
+router.get('/detalles/:id',getRecipeById)
+router.get('/receta/:id',getRecipeIngredients)
 
 export default router

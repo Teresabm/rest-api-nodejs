@@ -3,6 +3,8 @@ import testDbRoute from './routes/testdb.routes.js'
 import recipesRoutes from './routes/recipes.routes.js'
 const app = express()
 
+
+/* CORS */
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
     res.header(
