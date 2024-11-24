@@ -19,5 +19,5 @@ app.use(express.json())
 app.use(testDbRoute)
 app.use('/recetas',recipesRoutes)
 
-app.use(express.static(__dirname + '/src/assets'))
+app.use(express.static(__dirname + '/assets'))
 export default app
