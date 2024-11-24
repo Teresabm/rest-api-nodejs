@@ -18,4 +18,6 @@ app.use(express.json())
 /* routes */
 app.use(testDbRoute)
 app.use('/recetas',recipesRoutes)
+
+app.use('/', express.static('assets'))
 export default app
