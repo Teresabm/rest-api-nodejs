@@ -21,7 +21,5 @@ Proyecto de creación de API REST para el proyecto de recetas en linea, utilizan
 
 * Diagrama en [draw.io](https://app.diagrams.net/)
 * Despliegue en [Railway](https://railway.app/)
-* Iconos en [tabler ICONS](https://tabler.io/icons)
-* Imagenes en [lummi](https://www.lummi.ai/)
-* Colores en [color hunt](https://colorhunt.co/)
+
 
