@@ -6,7 +6,7 @@ Proyecto de creación de API REST para el proyecto de recetas en linea, utilizan
 
 **Diagrama de entidades de la base de datos:**
 
-![Estructura BD](./assets/diagrama.png "Estructura BD")
+![Estructura BD](./src/assets/diagrama.png "Estructura BD")
 
 **Reglas de negocio:**
 
@@ -14,10 +14,6 @@ Proyecto de creación de API REST para el proyecto de recetas en linea, utilizan
 * Mostrar las categorías que existen (Nombre e icono)
 * Mostrar recetas por cada categoría (Nombre e imagen)
 * Mostrar la receta detallada de cada una de las recetas que están registradas (Nombre, ingredientes, procedimiento, imagen, porciones)
-
-**Vista previa del proyecto:**
-
-![Home](./src/assets/recipesBook-home.jpeg "Home")
 
 
 
